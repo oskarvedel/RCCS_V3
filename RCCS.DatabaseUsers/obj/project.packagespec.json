@@ -1,0 +1,86 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/Oskar/Downloads/I4PRJ_V2-26d0a0fe47ae03d0743a1a110d54cededc0d2019/RCCS/RCCS.DatabaseUsers/RCCS.DatabaseUsers.csproj",
+    "projectName": "RCCS.DatabaseUsers",
+    "projectPath": "/Users/Oskar/Downloads/I4PRJ_V2-26d0a0fe47ae03d0743a1a110d54cededc0d2019/RCCS/RCCS.DatabaseUsers/RCCS.DatabaseUsers.csproj",
+    "outputPath": "/Users/Oskar/Downloads/I4PRJ_V2-26d0a0fe47ae03d0743a1a110d54cededc0d2019/RCCS/RCCS.DatabaseUsers/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "BCrypt.Net-Next": {
+          "target": "Package",
+          "version": "[4.0.0, )"
+        },
+        "Microsoft.AspNetCore.NodeServices": {
+          "target": "Package",
+          "version": "[3.1.4, )"
+        },
+        "Microsoft.EntityFrameworkCore.Analyzers": {
+          "target": "Package",
+          "version": "[3.1.4, )"
+        },
+        "Microsoft.EntityFrameworkCore.Design": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.1.4, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[3.1.4, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.1.4, )"
+        },
+        "System.IdentityModel.Tokens.Jwt": {
+          "target": "Package",
+          "version": "[6.5.1, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+    }
+  }
+}
